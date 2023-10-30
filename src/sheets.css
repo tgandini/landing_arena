@@ -34,10 +34,10 @@ body {
   /* Establece el color de texto en blanco */
   display: flex;
   flex-direction: column;
-  background-image: url('../images/wallpaper.jpeg');
+  /* background-image: url('../images/wallpaper.jpeg');
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 body, p, h1, h2, h3, h4, h5, h6, a, span, div, li {
