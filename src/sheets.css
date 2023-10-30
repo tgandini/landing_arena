@@ -2,11 +2,12 @@
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   width: 100%;
   background-color: rgb(95, 0, 0);
   /* Establece el fondo del navbar en negro */
   color: #fff; /* Cambia el color del texto según tus preferencias */
-  z-index: 100; /* Asegúrate de que el navbar esté en la parte superior */
+  z-index: 1000; /* Asegúrate de que el navbar esté en la parte superior */
 }
 
 .titulo {
@@ -38,6 +39,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  margin:0;
 }
 
 body, p, h1, h2, h3, h4, h5, h6, a, span, div, li {
@@ -57,6 +59,11 @@ body, p, h1, h2, h3, h4, h5, h6, a, span, div, li {
   font-size: 1.5rem; /* Cambia el tamaño del texto para hacerlo más grande */
 }
 
+.content {
+  flex: 1;
+  /* Contenido de tu página ocupará el espacio restante */
+}
+
 footer {
   background: #333; /* Color de fondo para el footer */
   color: white; /* Color del texto en el footer */
@@ -66,6 +73,7 @@ footer {
   bottom: 0;
   right: 0;
   left: 0;
+  width: 100%;
 }
 
 .parrafo {
@@ -82,4 +90,17 @@ footer {
 /* Agrega este CSS a tu archivo de estilos o en línea en tu HTML */
 .carousel-inner .carousel-item img {
     height: 300px; /* Establece la altura deseada */
+}
+
+/* Estilos específicos para dispositivos móviles (pequeñas pantallas) */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+      top: 0; /* Deja el navbar en la parte superior en dispositivos móviles */
+  }
+  
+  /* Footer */
+  footer {
+      bottom: 0; /* Deja el footer en la parte inferior en dispositivos móviles */
+  }
 }
