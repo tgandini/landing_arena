@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="src/stylesheets/fonts_awesome.css">
+    <link rel="stylesheet" href="src/sheets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> #
+    <title>Arena Cross</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i> <!-- Ícono de tres líneas horizontales -->
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item-large">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item-large">
+                        <a class="nav-link" href="#fotos">Algunas imágenes</a>
+                    </li>
+                    <li class="nav-item-large">
+                        <a class="nav-link" href="#donde-estamos">Donde estamos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-icons ml-auto">
+                <!-- Ícono de WhatsApp (XL) con mensaje predeterminado -->
+                <a href="https://wa.me/+5492213578437/?text=Hola!%20Te%20contacto%20porque%20vi%20tu%20sitio%20web%20y%20me%20interesaría%20saber%20más"
+                    target="_blank" class="navbar-icon">
+                    <i class="fab fa-whatsapp fa-3x .whatsapp-icon" style="color: rgb(171, 255, 171);"></i>
+                </a>
+                <!-- Ícono de Instagram (XL) -->
+                <a href="https://www.instagram.com/tomygandini" target="_blank" class="navbar-icon">
+                    <i class="fab fa-instagram fa-3x" style="color: rgb(248, 159, 244);"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="nosotros">
+        <div class="container parrafo">
+            <h1 class="titulo">Nosotros</h1>
+            elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh
+            mauris
+            cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit
+            amet
+            nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu ac tortor
+            dignissim convallis aenean et tortor at risus viverra adipiscing at in tellus integer feugiat scelerisque
+            varius
+            morbi enim nunc faucibus a pellentesque sit amet porttitor eget dolor morbi non arcu risus quis varius quam
+            quisque id diam vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem
+            ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla
+            facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris
+            pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+            egestas maecenas pharetra convallis posuere
+        </div>
+    </div>
+
+    <div class="container parrafo" id="fotos">
+        <h1 class="titulo">Algunas imágenes</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Imágenes del carrusel con enlaces públicos de Google Drive -->
+            <div class="carousel-inner" style="text-align: center;">
+                <div class="carousel-item active">
+                    <img class="imagen-centrada" src="images/1.jpg" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img class="imagen-centrada" src="images/2.jpg" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img class="imagen-centrada" src="images/3.jpg" alt="Imagen 3">
+                </div>
+                <!-- Agrega más imágenes según sea necesario -->
+            </div>
+
+            <!-- Controles del carrusel -->
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" ariahidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="container parrafo" id="donde-estamos">
+        <h1 class="titulo">Donde estamos</h1>
+        <div style="text-align: center;"> <!-- Centra el contenido horizontalmente -->
+            <p>Actualmente nos encontramos en Calle 34 N° ... entre 26 y 27</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d408.9285839738553!2d-57.9869524551538!3d-34.92078460248492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1698635292577!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container">Powered by Tomás Gandini <a href="https://www.linkedin.com/in/tomasgandini/"
+                target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
