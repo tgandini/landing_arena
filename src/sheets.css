@@ -82,8 +82,8 @@ footer {
 .imagen-centrada {
   margin: 0 auto;
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 100%;
+  object-fit: scale-down;
 }
 
 /* Agrega este CSS a tu archivo de estilos o en línea en tu HTML */
