@@ -75,14 +75,13 @@ footer {
   left: 0;
   width: 100%;
 }
-
 .parrafo {
   margin-top: 70px;
 }
 
 .imagen-centrada {
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
   height: auto;
   object-fit: cover;
 }
